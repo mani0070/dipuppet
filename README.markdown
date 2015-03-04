@@ -1,0 +1,3 @@
+# dipuppetmodule #
+
+This is the dipuppetmodule module. It provides...
