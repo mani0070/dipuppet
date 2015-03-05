@@ -1,7 +1,13 @@
 {
   "author": "Manimaran Chandrasekaran",
-  "dependencies": [],
-  "license": "Free",
+  "dependencies": [
+  	{ "name": "puppetlabs/stdlib", "version_requirement": ">=3.2.0 <5.0.0" },
+  { "name": "puppetlabs/firewall", "version_requirement": ">= 0.0.4" },
+  { "name": "puppetlabs/apt", "version_requirement": ">=1.1.0 <2.0.0" },
+  { "name": "puppetlabs/concat", "version_requirement": ">= 1.0.0 <2.0.0" },
+  { "name": "puppetlabs/registry", "version_requirement": ">= 1.0.0 <2.0.0"}
+  	  ],
+  "license": "Apache-2.0",
   "name": "ManiHome-dipuppetmodule",
   "operatingsystem_support": [],
   "project_page": "",
